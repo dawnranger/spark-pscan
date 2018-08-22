@@ -1,5 +1,5 @@
 # spark-pscan
-Community detection algorithm for large scale graph.
+A fast community detection algorithm for large scale graph.
 
 spark implementation of 
 
