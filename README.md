@@ -22,3 +22,6 @@ println("nodes of every communities:")
 components.vertices.map(v=>(v._2, v._1)).groupByKey().collect
     .foreach(x=>println("%d: %s".format(x._1, x._2.mkString(" "))))
 ```
+
+##Ackowledgement
+This repo is a reorganization of the PSCAN implementation in [this repo](sparkling-graph).
