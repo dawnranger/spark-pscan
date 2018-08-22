@@ -24,4 +24,5 @@ components.vertices.map(v=>(v._2, v._1)).groupByKey().collect
 ```
 
 ##Ackowledgement
-This repo is a reorganization of the PSCAN implementation in [this repo](sparkling-graph).
+
+This repo is a re-organization of the PSCAN implementation in [this repo](sparkling-graph) with some minor change in order to make it more readable.
