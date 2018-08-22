@@ -14,7 +14,7 @@ object PSCAN{
               mergeMsg = (s1, s2) => {
                   s1 ++ s2
               }
-          )
+          ).mapValues((vid, neighbours)=> neighbours + vid)
 
           val neighbours: Graph[Set[VertexId], ED] = graph.outerJoinVertices(withNeighboursVertices)(
               (_, _, newValue) => newValue.getOrElse(Set(0L))
