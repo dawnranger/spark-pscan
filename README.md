@@ -3,12 +3,12 @@ Community detection algorithm for large scale graph.
 
 spark implementation of 
 
->Zhao, W., Martha, V., & Xu, X. (2013, March). PSCAN: a parallel Structural clustering algorithm for big networks in MapReduce. In Advanced Information Networking and Applications (AINA), 2013 IEEE 27th International Conference on (pp. 862-869). IEEE
+>Zhao, W., Martha, V., & Xu, X. (2013, March). **PSCAN: a parallel Structural clustering algorithm for big networks in MapReduce**. In Advanced Information Networking and Applications (AINA), 2013 IEEE 27th International Conference on (pp. 862-869). IEEE
 
 
 which is the parallel version of:
 
->X.Xu, N.Yuruk, Z. Feng, T. Schweiger. SCAN: a structural clustering algorithm for networks,Proceedings of the 13th ACM SIGKDD international conference on Knowledge discovery and data mining, pp. 824-833, 2007.
+>X.Xu, N.Yuruk, Z. Feng, T. Schweiger. **SCAN: a structural clustering algorithm for networks**,Proceedings of the 13th ACM SIGKDD international conference on Knowledge discovery and data mining, pp. 824-833, 2007.
 
 ## Usage
 
