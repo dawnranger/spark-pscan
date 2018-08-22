@@ -17,7 +17,7 @@ val graph:Graph[Int, Int] = GraphLoader.edgeListFile(sc, "path_to_graph_file")
 
 val components:Graph[VertexId, Int] = PSCAN.pscan(graph, epsilon = 0.2)
 
-println("\n\nnum communities: " + components.vertices.map{case (vId,cId)=>cId}.distinct.count)
+println("num communities: " + components.vertices.map{case (vId,cId)=>cId}.distinct.count)
 println("nodes of every communities:")
 components.vertices.map(v=>(v._2, v._1)).groupByKey().collect
     .foreach(x=>println("%d: %s".format(x._1, x._2.mkString(" "))))
